@@ -1,0 +1,41 @@
+/* ここから下に記載していく */
+
+.width{
+    width: 1200px;
+}
+.width01{
+  width: 100%;
+}
+
+.txt01{
+    -webkit-text-stroke: 1px #744803;
+    font-weight:  bold
+  }
+  .fourth4-inner {
+    overflow: scroll; /* コンテンツが要素のサイズを超える場合にスクロールバーを表示 */
+  }
+  .txt02{
+        font-weight:  bold
+  }
+.bgcolor01{
+    opacity: 0.7;
+}
+.bgcolor02{
+    background-color: rgba(255,237,213,0.5)
+}
+.wrap{
+  display: flex;
+  align-items: center;
+}
+.slideshow{
+  display: flex;
+  animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+}
